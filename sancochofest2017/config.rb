@@ -19,9 +19,9 @@ page '/*.txt', layout: false
 # General configuration
 
 # Reload the browser automatically whenever files change
-configure :development do
-  activate :livereload
-end
+#configure :development do
+#  activate :livereload
+#end
 
 ###
 # Helpers
