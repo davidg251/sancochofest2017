@@ -1,17 +1,19 @@
 {
   "name": "sancocho-fest-2017",
-  "version": "0.1",
-  "description": "Esqueleto para sitio web del festival sancocho Fest 2017, version 5",
-  "author": "David Gomez - Asociacion Montando  la Podrida",
-  "homepage" : "http://sancochofest.co",
-  "scripts" : {
-    "start" : "gulp",
-    "gulp" : "gulp"
-    },
-  "license" : "MIT",
+  "version": "0.1.0",
+  "description": "Sitio web del festival Sancocho Fest 2017, version V",
+  "author": "David Gomez",
+  "homepage": "http://sancochofest.co",
+  "scripts": {
+    "start": "gulp",
+    "gulp": "gulp"
+  },
+  "license": "MIT",
   "dependencies": {
-    "bower" : "^1.7.9",
-    "gulp" : "^3.9.1",
-    "gulp-sass" : "^2.3.2"
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "require-dir": "^0.3.0",
+    "vinyl-ftp": "^0.5.0"
   }
 }
