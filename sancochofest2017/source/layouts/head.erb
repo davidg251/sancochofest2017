@@ -1,14 +1,12 @@
-  <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
-    <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<meta charset="utf-8">
+<meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Sancocho Fest 2017" %></title>
+<!-- Use title if it's in the page YAML frontmatter -->
+<title><%= current_page.data.title || "Sancocho Fest 2017" %></title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Droid+Sans+Mono|Josefin+Sans:700" rel="stylesheet"> 
+<%= stylesheet_link_tag :main %>
+<%= javascript_include_tag :all %>
 
-    <%= stylesheet_link_tag :foundation %>
-    <%= javascript_include_tag :all %>
 
-  </head>

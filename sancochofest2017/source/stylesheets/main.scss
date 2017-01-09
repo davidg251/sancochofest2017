@@ -1,0 +1,90 @@
+@import "../../../bower_components/foundation-sites/assets/foundation";
+  
+$topbar-background : transparent;
+*{
+  font-family: 'Josefin Sans', sans-serif !important;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif !important;
+  /*font-family: 'Droid Sans Mono', monospace;*/
+}
+h1,h3,h4,h5{
+ 
+}
+
+.title-bar {
+    background: transparent;
+    margin-bottom: -66px;
+}
+
+.menu li a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color:#fff;
+}
+
+.seccion {
+  background: #123;
+  height:100vh;
+  width: 100%;
+}
+
+#inicio {
+   background:#3f51b5;
+   color:white;
+}
+
+#line-up {
+   background:#cddc39;
+   color:white;
+   height:auto; 
+   .column-block, .column {
+      padding: 0 !important;
+   }
+}
+
+.artista-panel {
+  cursor: pointer;
+  width: 100%;
+  max-height: 200px;
+  overflow: hidden;
+  img {
+    transition: all .8s;
+    -webkit-transition: all .8s; /* Safari */
+    transition: all .8s;
+    width: 100%;
+    -webkit-filter: grayscale(60%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(60%);
+  }
+  .artista-info {
+    transition: opacity .8s;
+    visibility: hidden;
+    opacity: 0;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    margin: 34px 156px;
+  }
+
+}
+
+.artista-panel:hover .artista-info {
+    visibility:visible;
+    opacity: 1;
+  }
+
+.artista-panel:hover img {
+   filter: grayscale(100%);
+   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  }
+
+.cabecera-seccion{
+  padding:30px 0;
+  text-transform: uppercase;
+}
+
+.column-block{
+  margin-bottom: 0;
+}
+
+

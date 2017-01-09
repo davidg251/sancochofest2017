@@ -1,0 +1,59 @@
+<section id="line-up" class="seccion">
+  <h2 class="cabecera-seccion text-center">Line Up</h2>
+  <div class="row">
+    <div class="column large-4 ">
+      <div class="row align-center small-up-1 medium-up-1 large-up-1">
+      <% data.artistas.dia1.each do |artista| %> 
+      <div class="column column-block">
+            <div class="artista-panel">
+              <div class="artista-info">
+                <p class="text center">
+                  <h4><%= artista.nombre %></h4>
+                  <span><%= artista.pais %></span>
+                </p>
+              </div>
+              <img src="<%= "/images/" + artista.img %>" />
+            <%#<%= image_tag 'grupo.jpeg' %>
+            </div>
+        </div>
+      <% end %>
+      </div>
+    </div>
+    <div class="column large-4 ">
+      <div class="row align-center small-up-1 medium-up-1 large-up-1">
+      <% data.artistas.dia1.each do |artista| %> 
+      <div class="column column-block">
+            <div class="artista-panel">
+              <div class="artista-info">
+                <p class="text center">
+                  <h4><%= artista.nombre %></h4>
+                  <span><%= artista.pais %></span>
+                </p>
+              </div>
+              <img src="<%= "/images/" + artista.img %>" />
+            </div>
+        </div>
+      <% end %>
+      </div>
+    </div>
+        <div class="column large-4 ">
+      <div class="row align-center small-up-1 medium-up-1 large-up-1">
+      <% data.artistas.dia1.each do |artista| %> 
+      <div class="column column-block">
+            <div class="artista-panel">
+              <div class="artista-info">
+                <p class="text center">
+                  <h4><%= artista.nombre %></h4>
+                  <span><%= artista.pais %></span>
+                </p>
+              </div>
+              <img src="<%= "/images/" + artista.img %>" />
+            <%#<%= image_tag 'grupo.jpeg' %>
+            </div>
+        </div>
+      <% end %>
+      </div>
+    </div>
+  </div>
+
+</section>

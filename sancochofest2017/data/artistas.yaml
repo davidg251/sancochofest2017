@@ -1,0 +1,20 @@
+dia1: 
+  - nombre: Caribefunk
+    pais: Colombia
+    img: grupo.jpeg
+
+  - nombre: Que Tengo
+    pais: España
+    img: queTengo.jpg
+
+  - nombre: Camarones del Aljibe
+    pais: N/A
+    img: camaronesDeAlgibe.jpg
+
+  - nombre: The Pelos
+    pais: Argentina
+    img: thePelos.jpg
+
+  - nombre: colectivoSwing
+    pais: Colombia
+    img: colectivoSwing.jpg

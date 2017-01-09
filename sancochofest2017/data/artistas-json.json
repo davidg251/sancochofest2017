@@ -1,0 +1,55 @@
+{
+  "artistas": {
+      "dia1" : [
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        }
+      ],
+      "dia2" : [
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        }
+      ],
+      "dia3" : [
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        },
+        {
+          "nombre":"Caribefunk",
+          "pais":"Colombia",
+          "img":"Caribefunk"
+        }
+      ]
+    }
+}
